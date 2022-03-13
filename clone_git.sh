@@ -9,7 +9,7 @@ username=$1
 location=$2
 
 # List of repositories to clone
-repositories=$(cat ./repositories)
+repositories=$(cat ../repositories)
 
 for r in ${repositories[@]}
 do

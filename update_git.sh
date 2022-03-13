@@ -6,7 +6,7 @@ echo Updating Git Repositories
 location=$1
 
 # List of all repositories to run 'git pull' on
-repositories=$(cat ./repositories)
+repositories=$(cat ../repositories)
 
 for r in ${repositories[@]}
 do
